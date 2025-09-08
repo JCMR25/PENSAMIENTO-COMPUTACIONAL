@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    float x,y,T;
+    cout<<"Ingresa el valor de x: ";
+    cin>>x;
+    cout<<"Ingresa el valor de y: ";
+    cin>>y;
+    T=(x*x)+(y*y);
+
+    cout << "La longitud de la tira es: "<< sqrt(T) << endl;
+
+    return 0;
+}
