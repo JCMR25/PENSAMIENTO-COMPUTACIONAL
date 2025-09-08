@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    float x,y,z,a,b;
+    cout<<"Introduzca el valor de x: ";
+    cin>>x;
+    cout<<"Introduzca el valor de y: ";
+    cin>>y;
+    cout<<"Introduzca el valor de x: ";
+    cin>>z;
+    A=((2*x+y)/(z))*((y*y*y)-z);
+    B=(((x+2*y+3*z)/(z-2*y-3*x))+x*x+z*z);
+    cout<<"El resultado es:"<<a/b;
+}
