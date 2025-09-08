@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float A,B,C,D,E;
+    cout<<"Ingrese el número entero: ";
+    cin>>A;
+    cout<<"Ingrese el numerador: ";
+    cin>>B;
+    cout<<"Ingrese el denominador: ";
+    cin>>C;
+    D=((A*C)+B);
+    E=C;
+    
+    cout<<"La fracción impropia es: "<<D<<"/"<<E<<endl;
+
+    return 0;
+}
