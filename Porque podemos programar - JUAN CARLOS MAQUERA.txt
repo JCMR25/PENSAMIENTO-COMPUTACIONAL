@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float x;
+    cout << "Ingresa el valor de x: ";
+    cin >> x;
+
+    float numerador = x + x * x;
+    float denominador = 5 * x + 3;
+    float a = numerador / denominador;
+
+    double y = (a + x) * (a / (a + 2 * x));
+
+    cout << "Resultado: y = " << y << endl;
+
+    return 0;
+}
