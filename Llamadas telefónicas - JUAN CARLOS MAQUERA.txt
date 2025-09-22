@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int clave, numin;
+    float precio, costo;
+
+    cout << "Introduce la clave de la zona: ";
+    cin >> clave;
+    cout << "Introduce el número de minutos de la llamada: ";
+    cin >> numin;
+
+    switch (clave) {
+        case 12: precio = 2.0; break;
+        case 15: precio = 2.2; break;
+        case 18: precio = 4.5; break;
+        case 19: precio = 3.5; break;
+        case 23: precio = 6.0; break;
+        case 25: precio = 6.0; break;
+        case 29: precio = 5.0; break;
+        default:
+            cout << "Clave inválida." << endl;
+    }
+
+    costo = precio * numin;
+    cout << "El costo total de la llamada es: " << costo << endl;
+
+    return 0;
+}
