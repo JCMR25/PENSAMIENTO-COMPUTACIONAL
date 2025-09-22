@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int operación;
+    double A,B,T;
+    cout<<"Menú"<<endl;
+    cout<<"1.Suma"<<endl;
+    cout<<"2.Resta"<<endl;
+    cout<<"3.Multiplicación"<<endl;
+    cout<<"4.División"<<endl;
+    cin>>operación;
+    
+    cout<<"Ingrese 2 números: ";
+    cin>>A>>B;
+    
+    switch (operación){
+        case 1:
+            T=A+B;
+            cout<<T<<endl;
+            break;
+        case 2:
+            T=A-B;
+            cout<<T<<endl;
+            break;
+        case 3:
+            T=A*B;
+            cout<<T<<endl;
+            break;
+        case 4:
+            T=A/B;
+            cout<<T<<endl;
+            break;
+        default:
+            cout<<"Error";
+    }
+
+    return 0;
+}
