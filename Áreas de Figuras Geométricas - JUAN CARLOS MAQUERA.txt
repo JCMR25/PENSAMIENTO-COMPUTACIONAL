@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int figura;
+    double lado,base,altura, area;
+    cout<<"1.Cuadrado"<<endl;
+    cout<<"2.Rectángulo"<<endl;
+    cout<<"3.Triángulo"<<endl;
+    cin>>figura;
+    
+    switch (figura) {
+        case 1:
+            cout << "Ingrese el lado del cuadrado: ";
+            cin >> lado;
+            area = lado * lado;
+                        cout << "Área del cuadrado: " << area << endl;
+            break;
+        case 2:
+            cout << "Ingrese la base del rectángulo: ";
+            cin >> base;
+            cout << "Ingrese la altura del rectángulo: ";
+            cin >> altura;
+            area = base * altura;
+            cout << "Área del rectángulo: " << area << endl;
+            break;
+        case 3:
+            cout << "Ingrese la base del triángulo: ";
+            cin >> base;
+            cout << "Ingrese la altura del triángulo: ";
+            cin >> altura;
+            area = (base * altura) / 2;
+            cout << "Área del triángulo: " << area << endl;
+            break;
+        default:
+            cout << "Opción inválida" << endl;
+            break;
+    }
+
+    return 0;
+}
