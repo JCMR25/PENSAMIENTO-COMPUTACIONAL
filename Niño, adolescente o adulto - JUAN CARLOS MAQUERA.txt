@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+    cout<<"Ingrese la edad de la persona: ";
+    int edad;
+    cin>>edad;
+    
+    if (edad>18){
+        cout<<"Es un adulto"<<endl;
+    } else {
+        if(edad>13){
+            cout<<"Es un adolescente"<<endl;
+        } else {
+            cout<<"Es un niño"<<endl;
+        }
+            
+    }
+    
+    return 0;
+}
