@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int edad;
+    cout<<"Ingrese la edad: ";
+    cin>>edad;
+    string R = (edad >= 18) ? "mayor de edad" : "menor de edad";
+    cout<<"La persona es "<<R<<endl;
+
+    return 0;
+}
