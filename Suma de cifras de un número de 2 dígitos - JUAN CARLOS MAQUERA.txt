@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num;
+    cout<<"Ingresa un número: ";
+    cin>>num;
+    
+    if (num<0){
+        cout<<"Es negativo";
+    }
+    
+    if (num>=10 && num<=99){
+        int primeracifra=num/10;
+        int segundacifra=num%10;
+        
+        int suma=primeracifra+segundacifra;
+        cout<<"La suma de cifras es: "<<suma<<endl;
+    }
+
+    return 0;
+}
