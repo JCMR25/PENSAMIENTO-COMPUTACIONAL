@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int numero;
+    cout << "Ingresa un número: ";
+    cin >> numero;
+
+    int unidad = numero % 10;
+    int decena = (numero / 10) % 10;
+    int centena = numero / 100;
+
+    if (numero >= 100) {
+        int invertido = unidad * 100 + decena * 10 + centena;
+        cout << "Invertido: " << invertido << endl;
+    } else {
+        cout << "El número debe tener tres cifras." << endl;
+    }
+
+    return 0;
+}
