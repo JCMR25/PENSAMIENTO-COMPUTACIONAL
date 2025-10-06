@@ -2,10 +2,11 @@
 using namespace std;
 int main() {
     int numero;
-    cout<<"Ingresa un n�mero: ";
+    cout<<"Ingresa un número: ";
     cin>>numero;
     string R = (numero % 2 == 0) ? "par" : "impar";
-    cout<<"La persona es "<<R<<endl;
+    cout<<"El número es "<<R<<endl;
 
     return 0;
+
 }
