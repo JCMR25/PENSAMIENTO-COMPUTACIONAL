@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout<<"Ingrese el valor de n: ";
+    int n;
+    cin>>n;
+    
+    for (int i=1; i<=n; i++){
+        if (i%2==1){
+            cout<<"1";
+        }else {
+            cout<<"0";
+        }
+    }
+
+    return 0;
+}
