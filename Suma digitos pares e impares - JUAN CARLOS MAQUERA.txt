@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    int SumaPares = 0, SumaImpares = 0;
+
+    while (num > 0) {
+        int dig = num % 10;
+
+        if (dig % 2 == 0) {
+            SumaPares = SumaPares + dig;
+        } else {
+            SumaImpares = SumaImpares + dig;
+        }
+
+        num = num / 10;
+    }
+
+    cout << "Suma de dígitos pares: " << SumaPares << endl;
+    cout << "Suma de dígitos impares: " << SumaImpares << endl;
+
+    return 0;
+}
