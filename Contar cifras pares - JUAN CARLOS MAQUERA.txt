@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num;
+    cin>>num;
+    
+    int contador=0;
+    
+    while (num>0){
+        int cifra=num%10;
+        if (cifra%2==0){
+            contador++;
+        }
+        num=num/10;
+    
+    }
+    
+    cout<<contador;
+
+    return 0;
+}
