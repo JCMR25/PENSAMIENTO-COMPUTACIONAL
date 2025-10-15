@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    int n;
+    cin>>n;
+    
+    int Suma=0;
+    for (int i=1; i<=n; i++){
+        Suma=Suma+pow(i,n-i+1);
+    }
+    cout<<"S = ";
+    for (int i=1; i<n; i++) {
+        if (i < n);
+    }
+    cout<<Suma<<endl;
+
+
+    return 0;
+}
