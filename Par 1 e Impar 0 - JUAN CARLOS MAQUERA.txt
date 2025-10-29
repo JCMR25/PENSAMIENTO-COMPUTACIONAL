@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int A[4]={2,1,5,8};
+    
+    for (int i=0; i<4; i++) {
+        if (A[i]%2==0) {
+            A[i]=1;
+        } else{
+            A[i]=0;
+        }
+    }
+    for (int i=0; i<4; i++){
+        cout<<A[i]<<" "<<endl;
+    }
+    cout<<endl;
+
+    return 0;
+}
