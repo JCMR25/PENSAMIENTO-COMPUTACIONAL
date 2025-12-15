@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+    struct Pensamiento {
+        int codigo;
+        string Nombre;
+        int Calificacion;
+    };
+    
+    int main()
+{
+    Pensamiento Estudiante;
+    Estudiante . codigo = 202001;
+    Estudiante . Nombre = "Juan";
+    Estudiante . Calificacion = 12;
+    
+    cout<<"Código: "<<Estudiante . codigo<<endl;
+    cout<<"Nombre: "<<Estudiante . Nombre<<endl;
+
+    return 0;
+}
