@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+    struct Registro {
+        int codigo;
+        string Nombre;
+        int signatura;
+    };
+    
+    int main()
+{
+    Registro Libro;
+    Libro . codigo = 1345645;
+    Libro . Nombre = "C++";
+    Libro . signatura = 305;
+    
+    cout<<"Código: "<<Libro . codigo<<endl;
+    cout<<"Nombre: "<<Libro . Nombre<<endl;
+    cout<<"Signatura: "<<Libro . signatura<<endl;
+
+
+    return 0;
+}
