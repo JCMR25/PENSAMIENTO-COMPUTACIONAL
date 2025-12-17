@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n1, n2;
+    int resultado;
+
+    int *p1=&n1;
+    int *p2=&n2;
+    int *pR=&resultado;
+
+    cout<<"Primer numero: ";
+    cin>>*p1;
+
+    cout<<"Segundo numero: ";
+    cin>>*p2;
+
+    *pR=*p1+*p2;
+
+    cout<<"La suma es: "<<*pR<<endl;
+
+    *pR=*pR+5;
+
+    cout<<"Incrementado +5: "<<*pR<<endl;
+
+    return 0;
+}
